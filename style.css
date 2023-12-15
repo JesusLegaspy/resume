@@ -1,0 +1,19 @@
+@media print {
+  body {
+    visibility: hidden;
+  }
+
+  #section-to-print {
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+@page {
+  margin-top: 0in;
+  margin-bottom: 0in;
+  margin-left: 0in;
+  margin-right: 0in;
+}
