@@ -12,7 +12,6 @@
 
 <body>
   <div class="bg-slate-100 min-h-screen pb-12">
-    This is a test
 
     <!-- Download PDF via Print -->
     <div class="flex justify-end sticky top-2 mx-2 text-slate-600 hover:text-slate-950">
@@ -35,11 +34,12 @@
     ">
       <!-- Heading -->
       <div class="mb-6">
-        <div class="text-4xl font-bold  mb-2">
+        <div class="text-4xl font-bold mb-2">
           Jesus Legaspy
         </div>
         <div>
-          Austin, TX | 512-956-8168 | jesus.legaspy@gmail.com
+          Austin, TX | 512-956-8168 | jesus.legaspy@gmail.com | <a href="https://github.com/JesusLegaspy"
+            target="_blank">github.com/JesusLegaspy</a>
         </div>
       </div>
 
@@ -49,9 +49,8 @@
           Summary
         </div>
         <div>
-          Motivated Software Engineer with an exceptional educational background in computer science and technology.
-          Proficient in essential software engineering skills, including full-stack development and network
-          architecture.
+          Motivated programmer looking for an entry-level software development position where I can utilize my previous
+          experience in maintaing a website and my abilities in React and JavaScript.
         </div>
       </div>
 
@@ -60,9 +59,19 @@
         <div class="text-2xl font-semibold border-b mb-3 pb-1">
           Education
         </div>
-        <div>
-          University of Texas at Austin
+        <div class="flex justify-between font-bold">
+          <span>The University of Texas at Austin</span>
+          <span>Austin, TX</span>
         </div>
+        <div class="flex justify-between">
+          <span>Bachelor of Science in Computer Engineering (concentration: software engineering)</span>
+          <span class="mb-2">May 2018</span>
+        </div>
+        <ul>
+          <li class="list-disc list-outside ml-8 mb-2">
+            Courses: Software Design and Development I & II, Algorithms, Software Testing
+          </li>
+        </ul>
       </div>
 
       <!-- Experience -->
@@ -70,24 +79,58 @@
         <div class="text-2xl font-semibold border-b mb-3 pb-1">
           Experience
         </div>
-        <div class="flex mb-2 font-bold">
-          <div class="grow">Foundry, Customer Support Engineer</div>
-          <div> May 2018 - December 2022</div>
+        <div class="flex justify-between font-bold">
+          <span>The Foundry Visionmongers Ltd</span>
+          <span>Austin, TX</span>
         </div>
-        <ul class="list-disc list-outside ml-8">
-          <li class="">Chrome Extension Development: Designed 'Zendesk Attachment Download' in JavaScript,
-            significantly streamlining customer attachment management. This tool organizes downloads by ticket ID,
-            offers a bulk download option, and avoids duplicate downloads, slashing overhead hours significantly.</li>
+        <div class="flex justify-between mb-2">
+          <span>Customer Support Engineer</span>
+          <span>May 2018 - December 2022</span>
+        </div>
+        <ul class="flex flex-col space-y-1 list-disc list-outside ml-8">
+          <li>
+            Developed a Chrome extension to organize downloads, slashing 3 hours a week
+          </li>
+          <li>
+            Created a React widget to display solutions, resulting in a 10% weekly reduction in tickets
+          </li>
+          <li>
+            Devised a NodeJS app to analyze and securely purge data, ensuring GDPR compliance
+          </li>
+          <li>
+            Ported an interactive data tool over to React, resulting in a 90% reduction in API requests
+          </li>
+          <li>
+            Authored a Python script to generate an offline website, now shipping as documentation
+          </li>
+          <li>
+            Developed a webpack toolchain, incorporating ES6, Less, and React to <a href="https://support.foundry.com"
+              target="_blank" class="text-sky-800 decoration-solid">support.foundry.com</a>
+          </li>
+          <li>
+            Launched a new training program, resulting in 3 new team members to be fully hands off
+          </li>
         </ul>
       </div>
 
-      <!-- Certifications -->
+      <!-- Projects -->
       <div class="mb-6">
         <div class="text-2xl font-semibold border-b mb-3 pb-1">
-          Certifications
+          Projects
         </div>
-        <ul class="list-disc list-outside ml-8">
-          <li class="">Learn Java from Scratch</li>
+        <div class="flex justify-between mb-2">
+          <span class="font-bold">Book Characters Fullstack Web App</span>
+          <span>September 2023 - Current</span>
+        </div>
+        <ul class="flex flex-col space-y-1 list-disc list-outside ml-8">
+          <li>
+            Engineered a full-stack web application enabling users to interactively explore and
+            manage book characters by chapter: <a href="https://wcbc.app" target="_blank"
+              class="text-sky-800 decoration-solid">https://wcbc.app</a>
+          </li>
+          <li>
+            Tech Stack: Docker, PostgreSQL, Java Spring Boot, React, TypeScript
+          </li>
         </ul>
       </div>
 
@@ -96,9 +139,9 @@
         <div class="text-2xl font-semibold border-b mb-3 pb-1">
           Skills
         </div>
-        <ul class="list-disc list-outside ml-8">
-          <li class="">Learn Java from Scratch</li>
-        </ul>
+        <p>
+          CSS, Docker, HTML5, Java, JavaScript, Node.js, Python, React, Tailwind, Terminal, TypeScript
+        </p>
       </div>
 
     </div>
